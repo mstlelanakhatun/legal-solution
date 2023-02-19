@@ -1,1 +1,77 @@
-dsds
+.font-eb {
+    font-family: 'EB Garamond', serif;
+}
+
+.button-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #B68C5A;
+    --bs-btn-border-color: #B68C5A;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #B68C5A;
+    --bs-btn-hover-border-color: #B68C5A;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #B68C5A;
+    --bs-btn-active-border-color: #B68C5A;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #B68C5A;
+    --bs-btn-disabled-border-color: #B68C5A
+}
+
+.banner-img {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    border-radius: 8px;
+   background-image: url(images/banner.png);
+}
+
+.banner-text-center {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-img-1 {
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    border-radius: 8px;
+    background-image: url(images/law-justice-concept-dark-background.jpg);
+}
+.carousel-img-2 {
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    border-radius: 8px;
+    background-image: url(images/lady-justice-law-library-concept.jpg);
+}
+.carousel-img-3 {
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    border-radius: 8px;
+    background-image: url(images/judges-gavel-scale-justice-black-table.jpg);
+}
+
+.user-img{
+    width: 10%;
+}
+
+@media screen and (max-width : 768px) {
+    .banner-img {
+        height: 60vh;
+    }
+
+    .carousel-img-1 {
+        height: 60vh;
+    }
+    .carousel-img-2 {
+        height: 60vh;
+    }
+    .carousel-img-3 {
+        height: 60vh;
+    }
+}
